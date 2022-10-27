@@ -7,8 +7,7 @@
 
     uvicorn task1_2:app --reload
 
-Отпраляем запрос на http://localhost:8000
-В теле запос передаем url для сжатия
+Отпраляем запрос на http://localhost:8000. В теле запос передаем url для сжатия
 
     {
         "body": "https://hh.ru/vacancy/71240928?from=negotiations_item&hhtmFrom=negotiations_item"
